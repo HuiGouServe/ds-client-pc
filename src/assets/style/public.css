@@ -1,0 +1,39 @@
+.color_6c6c6c {
+  color: #6c6c6c;
+}
+
+.color_ddd {
+  color: #ddd;
+}
+
+.color_9c9c9c {
+  color: #9c9c9c;
+}
+
+.display_flex {
+  display: flex;
+}
+
+.margin_auto {
+  margin: auto;
+}
+
+.margin_5 {
+  margin: 5px;
+}
+
+.size_12 {
+  font-size: 12px;
+}
+
+.size_20 {
+  font-size: 20px;
+}
+
+.size_16 {
+  font-size: 16px;
+}
+
+.cursor_pointer {
+  cursor: pointer;
+}
