@@ -279,7 +279,7 @@ const searchShow = ref(false),
     router.push({ path: '/register' })
   },
   login = () => {
-    router.replace({ path: '/login' })
+    router.push({ path: '/login' })
   },
   setupShopClick = () => {
     router.push({ path: '/release' })

@@ -97,12 +97,12 @@ const phone = getUserINfo() ? JSON.parse(getUserINfo()).phone : '',
     store.dispatch('logout', { phone: phone.value })
   },
   login = () => {
-    router.replace({ path: '/login' })
+    router.push({ path: '/login' })
   },
   sellClick = (item: string) => {
     if (item == "免费开店") {
       if (getUserINfo() == '') {
-        router.replace({ path: '/login' })
+        router.push({ path: '/login' })
       } else {
         http.post('/indentity/getAuthenticationStatus', {
           userId: JSON.parse(getUserINfo()).userId

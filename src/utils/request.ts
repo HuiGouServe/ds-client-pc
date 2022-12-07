@@ -32,7 +32,7 @@ server.interceptors.response.use(
 
     if (response.data.code == 401) { //判断当前用户是否token 失效或空 
       removeToken();
-      router.replace({ path: "/login" })
+      router.push({ path: "/login" })
     }
     return response;
   },

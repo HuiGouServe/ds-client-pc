@@ -65,7 +65,7 @@ const user: any = {
             removeToken()
             removeUserinfo()
             window.localStorage.clear()
-            router.replace({ path: '/login' })
+            router.push({ path: '/login' })
             // window.location.reload()
             resolve("登出成功")
           } else {
